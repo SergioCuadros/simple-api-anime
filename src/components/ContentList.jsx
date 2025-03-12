@@ -1,3 +1,5 @@
+import { Button } from "./Button";
+
 export const ContentList = () => {
   return (
     <>
@@ -8,15 +10,19 @@ export const ContentList = () => {
         <div className="card-body">
           <h2 className="card-title font-bold cursor-pointer">
             Anime Title!
-            <div className="badge badge-secondary">Thats it!</div>
+            <div className="badge badge-outline badge-secondary">Thats it!</div>
+            <div className="badge badge-outline badge-secondary">Thats it!</div>
+            <div className="badge badge-outline badge-secondary">Thats it!</div>
+            <div className="badge badge-outline badge-secondary">Thats it!</div>
           </h2>
-          <p>
-            A card component has a figure, a body part, and inside body there
-            are title and actions parts
+          <p className="text-lg font-thin text-left"> 
+              2009 · 64 ep · ⭐9.1 · 🏆top 3
           </p>
-          <div className="card-actions justify-end">
-            <div className="badge badge-outline">Fashion</div>
-            <div className="badge badge-outline">Products</div>
+          <p className="mt-3 font-thin text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ducimus exercitationem nostrum corrupti molestias praesentium adipisci commodi, sequi vitae perferendis quam ea, quos nulla in. Ex, facilis quas. Earum, ab. </p>
+          <div className="flex justify-between">
+            <Button text={"Back"} className={"btn btn-outline btn-accent"}/>
+            <Button text={"Hide"} className={"btn btn-outline btn-accent"}/>
+            <Button text={"Next"} className={"btn btn-outline btn-accent"}/>
           </div>
         </div>
       </div>
