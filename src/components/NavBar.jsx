@@ -1,5 +1,5 @@
 
-export const NavBar = (onBackClick, selectedMood) => {
+export const NavBar = ({onBackClick, selectedMood}) => {
     return (
         <div className="navbar bg-slate-100/5 py-2 my-2 rounded-[15px] shadow-xl center-container">
             <div className="navbar-start">
